@@ -1,0 +1,52 @@
+{
+  "components": [
+    {
+      "label": "Pack Cash",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1dd8lm1",
+        "columns": null
+      },
+      "id": "Field_0ghwra0",
+      "key": "money",
+      "description": "how much",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "where are you heade",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1t61ujw",
+        "columns": null
+      },
+      "id": "Field_00hattu",
+      "key": "country",
+      "description": "country",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "ENTER PRICE OF TAXI",
+      "type": "number",
+      "layout": {
+        "row": "Row_106v32r",
+        "columns": null
+      },
+      "id": "Field_0u8zhbl",
+      "key": "taxiCost",
+      "description": "ENTER PRICE OF TAXI"
+    }
+  ],
+  "type": "default",
+  "id": "Form_00qn5vc",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}
